@@ -1,0 +1,47 @@
+﻿.text-input {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    
+    font-size: 14px;
+    font-weight: 300;
+    overflow-x:hidden;
+}
+
+
+.name-input {
+    width: 50%;
+}
+
+.button-input {
+    margin-left: 20px;
+}
+
+.button-input:hover {
+      background-color:whitesmoke;
+}
+
+.box:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.box {
+    width: 100%;
+    max-width:520px;
+    height: auto;
+    background-color: lightgray;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+
+}
+.delete-note {
+   float:right;  
+   width:20px;  
+   height:20px;
+   padding:0; 
+}
+
+
